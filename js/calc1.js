@@ -281,7 +281,7 @@ let B3=  {
 };
  let TI =  {
     Id:"NewTI",
-        Name:"TI Technik informatyk",
+        Name:"TI technik informatyk",
         Extensions: ["matematyka", "język angielski lub informatyka" ],
         ScoreDivision: ["język polski", "matematyka",
         "język angielski", "geografia lub fizyka"]
@@ -294,14 +294,14 @@ let TP= {
         "język angielski", "geografia lub fizyka"]
 };
 let TE= {
-    Name:"Technik ekonomista",
+    Name:"TE technik ekonomista",
         Extensions: ["matematyka", "geografia lub wiedza o społeczeństwie"],
         ScoreDivision: ["język polski", "matematyka",
         "język angielski", "geografia lub historia"]
 };
 let TR =  {
     Id:"NewTR",
-        Name:"Technik rachunkowości",
+        Name:"TR technik rachunkowości",
         Extensions: ["matematyka", "geografia lub wiedza o społeczeństwie"],
         ScoreDivision: ["język polski", "matematyka",
         "język angielski", "geografia lub historia"]
@@ -314,7 +314,7 @@ let THT =  {
 };
 let TOT = {
     Id:"NewTOT",
-        Name:"TOT technik organizacji turystyk",
+        Name:"TOT tech. organizacji turystyk",
         Extensions: ["geografia", "język angielski lub wiedza o społeczeństwie"],
         ScoreDivision: ["język polski", "matematyka",
         "język angielski", "geografia lub historia"]
