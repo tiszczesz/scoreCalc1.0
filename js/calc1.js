@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+    let downNew = true;
+    let downOld = true;
     $("#newTopics").html(SetSelect("newTopics", NewSchool));
     $("#oldTopics").html(SetSelect("oldTopics", OldSchool));
 
@@ -29,13 +32,18 @@ $(document).ready(function () {
 
     CountScoreNew();
     CountScoreOld();
-    // $("#left").click(
-    //     function () {
-    //         $("#newForm").toggle("slow");
-    //     });
-    // $('#right').click(function () {
-    //     $("#oldForm").toggle("slow");
-    // });
+    $("#downNew").click(
+        function () {
+            let icon = downNew ? "css/icons8-drop-down-50.png" :"css/icons8-up-squared-50.png";
+            downNew = !downNew;
+
+            $("#newForm").slideToggle("slow",()=>{ $("#downNew img").attr("src",icon);});
+        });
+    $('#downOld').click(function () {
+        let icon = downOld ? "css/icons8-drop-down-50.png" :"css/icons8-up-squared-50.png";
+        downOld = !downOld;
+        $("#oldForm").slideToggle("slow",()=>{$("#downOld img").attr("src",icon)});
+    });
 
 
 
